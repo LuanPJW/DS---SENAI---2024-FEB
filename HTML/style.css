@@ -1,0 +1,43 @@
+/* Seletores */
+
+/*Inlinw = direto na tag HTML*/
+
+h1{
+    /*Cor do elemento*/
+    color: rgb(128, 19, 0);
+    /*Tipo da fonte*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*Tamanho da fonte*/
+    font-size: 26pt;
+    /*Alinhamento da fonte*/
+    text-align: center; /*Apesar do nome "text" serve para qualquer tipo de elemento*/
+
+}
+
+h2{
+
+    color: rgb(203, 71, 255);
+
+}
+
+h2{
+
+    text-align: center; 
+
+}
+
+h3{
+
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+}
+
+img{
+
+    /*Largura*/
+    height: 200px;
+    /*Largura*/
+    width: 200px;
+}
