@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+
+    background-color: pink;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+
+a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+
+}
+
+header{
+
+    background-color: magenta;
+}
+
+header :hover{
+
+    background-color: black;
+}
+
+li :hover{
+
+    color: green;
+
+}
+
+
+ul{
+
+    /* Coloca o elemento um do lado do outro*/
+    display: flex;
+    /*Distribui o espaço ao redor ndo elemento*/
+    justify-content: space-around;
+    /*Elimina o estilo da lista*/
+    list-style: none;
+    padding: 50px 200px;
+}
